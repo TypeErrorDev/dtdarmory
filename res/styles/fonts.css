@@ -1,0 +1,6 @@
+/* Install @fontsource/rajdhani, @fontsource/inter and @fontsource/ibm-plex-mono, then import the desired weights. */
+:root {
+    --dtd-font-display: 'Rajdhani', Arial, sans-serif;
+    --dtd-font-body: 'Inter', Arial, sans-serif;
+    --dtd-font-data: 'IBM Plex Mono', Consolas, monospace
+}

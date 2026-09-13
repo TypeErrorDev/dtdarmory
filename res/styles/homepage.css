@@ -1,0 +1,30 @@
+@import './design-tokens.css';
+@import './fonts.css';
+
+.dtd-page {
+    background: var(--dtd-background);
+    color: var(--dtd-text);
+    font-family: var(--dtd-font-body)
+}
+
+.dtd-display {
+    font-family: var(--dtd-font-display);
+    text-transform: uppercase;
+    letter-spacing: .02em
+}
+
+.dtd-label {
+    font-family: var(--dtd-font-display);
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-weight: 600
+}
+
+.dtd-data {
+    font-family: var(--dtd-font-data);
+    font-variant-numeric: tabular-nums
+}
+
+.dtd-hero-overlay {
+    background: linear-gradient(90deg, rgba(7, 11, 16, .92), rgba(7, 11, 16, .55), rgba(7, 11, 16, .10))
+}
